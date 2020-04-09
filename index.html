@@ -15,11 +15,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mergaitė</title>
+    <style>
+        body {
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+            body > main {
+                display: inline-block;
+                width: 800px;
+                margin-top: 30px;
+                text-align: left;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #a1a1a1;
+            }
+                main > header {
+                    float: left;
+                    width: 100%;
+                }
+
+                    main > header > img {
+                        float: left;
+                    }
+                    nav {
+                        float: right;
+                    }
+                        a {
+                            display: inline-block;
+                            padding: 15px;
+                            text-decoration: none;
+                        }
+                main > section {
+                    float: left;
+                    width: 100%;
+                }
+
+                    main > section > div {
+                        float: left;
+                        width: 45%;
+                        margin-top: 45px;
+                    }
+                        main > section > div > h1{
+                            font-size: 100px;
+                            margin: 0;
+                        }
+                        main > section > div > p {
+                            font-size: 24px;
+                            width: 70%;
+                            margin: 0;
+                        }
+                    main > section > img {
+                        float: right;
+                        width: 45%;
+                    }
+    </style>
 </head>
 <body>
-    <main style="font-size: 25px;">
+    <main>
         <header>
-            <img src="img/logo.png">
+            <img src="./img/logo.png">
             <nav>
                 <a href="#">Home</a>
                 <a href="#">Tracks</a>
@@ -33,7 +86,7 @@
                 <h1>404</h1>
                 <p>The link is broken or the page has been moved.</p>
             </div>
-            <img src="img/mergaite.png"
+            <img src="./img/mergaite.png"
         </section>
     </main>
 </body>
